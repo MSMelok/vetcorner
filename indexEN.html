@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!--=============== FAVICON ===============-->
+    <link
+      rel="shortcut icon"
+      href="assets/img/favicon.png"
+      type="image/x-icon"
+    />
+
+    <!--=============== BOXICONS ===============-->
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/boxicons@latest/css/boxicons.min.css"
+    />
+
+    <!--=============== SWIPER CSS ===============-->
+    <link rel="stylesheet" href="assets/css/swiper-bundle.min.css" />
+
+    <!--=============== CSS ===============-->
+    <link rel="stylesheet" href="assets/css/styles.css" />
+
+    <title>Vet Corner</title>
+  </head>
+  <body>
+    <!--==================== HEADER ====================-->
+    <header class="header" id="header">
+      <nav class="nav container">
+        <a href="#home" class="nav__logo">
+          <img src="assets/img/logo.png" alt="" class="nav__logo-img" />
+          Vet Corner
+        </a>
+
+        <div class="nav__menu" id="nav-menu">
+          <ul class="nav__list">
+            <li class="nav__item">
+              <a href="#home" class="nav__link active-link">Home</a>
+            </li>
+            <li class="nav__item">
+              <a href="#about" class="nav__link">About</a>
+            </li>
+            <li class="nav__item">
+              <a href="#services" class="nav__link">Services</a>
+            </li>
+            <li class="nav__item">
+              <a href="#message" class="nav__link">Contact</a>
+            </li>
+          </ul>
+
+          <div class="nav__close" id="nav-close">
+            <i class="bx bx-x"></i>
+          </div>
+
+          <img src="assets/img/logo.png" alt="" class="nav__img" />
+        </div>
+        <div class="nav__btns">
+          <!-- Theme change button -->
+          <i class="bx bx-moon change-theme" id="theme-button"></i>
+          <a href="./index.html">
+            <i class="bx bx-globe change-theme"></i>
+          </a>
+
+          <!-- Toggle button -->
+          <div class="nav__toggle" id="nav-toggle">
+            <i class="bx bx-grid-alt"></i>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <!--==================== MAIN ====================-->
+    <main class="main">
+      <!--==================== HOME ====================-->
+      <section class="home" id="home">
+        <div class="home__container container grid">
+          <img src="assets/img/home.svg" alt="" class="home__img" />
+
+          <div class="home__data">
+            <h1 class="home__title">
+              Exceptional Care <br />
+              for Your Beloved Pets
+            </h1>
+            <p class="home__description">
+              Vet Corner - Compassionate, Professional Veterinary Services
+            </p>
+            <a href="#about" class="button">Know More</a>
+          </div>
+        </div>
+      </section>
+
+      <!--==================== About ====================-->
+      <section class="about section container" id="about">
+        <div class="about__container grid">
+          <div class="about__data">
+            <h2 class="section__title about__title">
+              A Passionate Veterinarian <br />
+              Dedicated to Your Pet's Health and Happiness
+            </h2>
+            <p class="about__description">
+              With over 10 years of experience, our doctor delivers exceptional
+              care,
+              <br />
+              combining passion and expertise to ensure your pet's health.
+              <br />
+              From routine visits to urgent care, Vet Corner is here for your
+              pet's well-being.
+            </p>
+            <a href="#services" class="button">Our Services</a>
+          </div>
+
+          <img src="assets/img/about.svg" alt="" class="about__img" />
+        </div>
+      </section>
+
+      <!--==================== Services ====================-->
+      <section class="services section container" id="services">
+        <h2 class="section__title">Our Services</h2>
+
+        <div class="services__container grid">
+          <!-- Vaccinations & Preventive Care -->
+          <article class="services__card">
+            <img
+              src="assets/img/Vaccinations.png"
+              alt=""
+              class="services__img"
+            />
+            <h3 class="services__price">Vaccinations</h3>
+            <span class="services__title"
+              >Essential vaccines to protect your pets.</span
+            >
+          </article>
+
+          <!-- Deworming & Parasite Control -->
+          <article class="services__card">
+            <img src="assets/img/Deworming.png" alt="" class="services__img" />
+            <h3 class="services__price">Deworming</h3>
+            <span class="services__title"
+              >Regular treatments for internal and external parasites.</span
+            >
+          </article>
+
+          <!-- Hydrotherapy & Bathing -->
+          <article class="services__card">
+            <img src="assets/img/bathing.png" alt="" class="services__img" />
+            <h3 class="services__price">Bathing</h3>
+            <span class="services__title"
+              >Hygienic baths for all coat types.</span
+            >
+          </article>
+
+          <!-- Grooming & Coat Care -->
+          <article class="services__card">
+            <img src="assets/img/grooming.png" alt="" class="services__img" />
+            <h3 class="services__price">Grooming</h3>
+            <span class="services__title"
+              >Full grooming services for healthy, happy pets.</span
+            >
+          </article>
+
+          <!-- Pet Accessories & Supplies -->
+          <article class="services__card">
+            <img
+              src="assets/img/Accessories.png"
+              alt=""
+              class="services__img"
+            />
+            <h3 class="services__price">Accessories</h3>
+            <span class="services__title"
+              >High-quality accessories for pets.</span
+            >
+          </article>
+
+          <!-- Premium Pet Nutrition -->
+          <article class="services__card">
+            <img src="assets/img/nutrition.png" alt="" class="services__img" />
+            <h3 class="services__price">Pet Nutrition</h3>
+            <span class="services__title">Vet-approved soft and dry food.</span>
+          </article>
+        </div>
+      </section>
+
+      <!--==================== MESSAGE ====================-->
+      <section class="message section container" id="message">
+        <div class="message__container grid">
+          <form action="" class="message__form">
+            <h2 class="message__title">
+              Contact Us <br />
+              the way you see fit.
+            </h2>
+
+            <!-- WhatsApp Button: Redirects to WhatsApp chat with number -->
+            <a
+              href="https://wa.me/201280053899"
+              target="_blank"
+              class="contact__button whatsapp"
+            >
+              <i class="bx bxl-whatsapp"></i>
+            </a>
+
+            <!-- Messenger Button: Redirects to Messenger conversation -->
+            <a
+              href="https://m.me/Dr.Vet.Corner"
+              target="_blank"
+              class="contact__button messenger"
+            >
+              <i class="bx bxl-messenger"></i>
+            </a>
+
+            <!-- Email Button: Opens mail client to send email -->
+            <a
+              href="mailto:omar2282003@yahoo.com"
+              target="_blank"
+              class="contact__button email"
+            >
+              <i class="bx bx-envelope"></i>
+            </a>
+          </form>
+
+          <img src="assets/img/message.svg" alt="" class="message__img" />
+        </div>
+      </section>
+    </main>
+
+    <!--==================== FOOTER ====================-->
+    <footer class="footer section">
+      <div class="footer__container container grid">
+        <div>
+          <a href="#" class="footer__logo">
+            <img src="assets/img/logo.png" alt="" class="footer__logo-img" />
+            Vet Corner
+          </a>
+
+          <p class="footer__description">
+            Dr. Riham <br />
+            she is the help you're looking for.
+          </p>
+        </div>
+
+        <div>
+          <h3 class="footer__title">Additional Links</h3>
+
+          <ul class="footer__links">
+            <li>
+                <a
+                    href="https://www.facebook.com/Dr.Vet.Corner/"
+                    target="_blank"
+                    class="footer__link"
+                >
+                    <i class="bx bxl-facebook-circle"></i> Facebook Page
+                </a>
+            </li>
+            <li>
+                <a
+                    href="https://maps.app.goo.gl/aZ4nFDtP5h9yuznU6"
+                    target="_blank"
+                    class="footer__link"
+                >
+                    <i class="bx bxs-map"></i> Location
+                </a>
+            </li>
+            <li>
+                <a
+                    href="https://msmelok.github.io/R4_2.0/"
+                    target="_blank"
+                    class="footer__link"
+                >
+                    <i class="bx bxl-github"></i> Site Developer
+                </a>
+            </li>
+        </ul>
+        
+        </div>
+
+        <div>
+          <h3 class="footer__title">Daily Hours</h3>
+          <p class="footer__description">
+            Daily from 05:00 PM till 10:00 PM
+            <br />
+            (hours may vary so please get in touch.)
+          </p>
+        </div>
+
+        <img src="assets/img/footer1.png" alt="" class="footer__img1" />
+        <img src="assets/img/footer2.png" alt="" class="footer__img2" />
+      </div>
+
+      <span class="footer__copy"
+        >&#169; Muhammad Meluk. All rigths reserved</span
+      >
+    </footer>
+
+    <!--=============== SCROLL UP ===============-->
+    <a href="#" class="scrollup" id="scroll-up">
+      <i class="bx bx-up-arrow-alt scrollup__icon"></i>
+    </a>
+
+    <!--=============== SCROLL REVEAL ===============-->
+    <script src="assets/js/scrollreveal.min.js"></script>
+
+    <!--=============== SWIPER JS ===============-->
+    <script src="assets/js/swiper-bundle.min.js"></script>
+
+    <!--=============== MAIN JS ===============-->
+    <script src="assets/js/main.js"></script>
+  </body>
+</html>
