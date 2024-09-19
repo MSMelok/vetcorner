@@ -113,7 +113,7 @@ button {
 /*=============== THEME ===============*/
 .nav__btns {
   display: flex;
-  align-items: center;
+  align-items: flex-start;
   column-gap: 1rem;
 }
 
@@ -717,7 +717,7 @@ body.dark-theme {
     width: 500px;
   }
   .home__description {
-    padding-right: 8rem;
+    padding-right: 2rem;
   }
 
   .giving__container {
@@ -732,7 +732,7 @@ body.dark-theme {
     width: 450px;
   }
   .about__description {
-    padding-right: 7rem;
+    padding-right: 1rem;
   }
 
   .services__container {
