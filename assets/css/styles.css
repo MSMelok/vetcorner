@@ -541,12 +541,12 @@ body.dark-theme {
 
 .footer__img1 {
   top: 25%;
-  right: 2rem;
+  left: -4rem;
 }
 
 .footer__img2 {
-  top: 75%;
-  right: -4rem;
+  top: 89%;
+  left: 14rem;
 }
 
 /*=============== SCROLL UP ===============*/
